@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/lang-RU | ENG-purple?style=for-the-badge" alt="Languages">
 </p>
 
-materialSpeed is a minimal native speed test app for macOS.
+**materialSpeed** is a minimal native speed test app for macOS.
 
 It checks your connection speed, shows the current result in a compact interface, and keeps a short local history of recent tests.
 
