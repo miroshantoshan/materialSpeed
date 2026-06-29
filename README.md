@@ -1,4 +1,14 @@
-# materialSpeed
+<p align="center">
+  <img src="Resources/logo.png" alt="materialSpeed logo" width="128" />
+</p>
+
+<h1 align="center">materialSpeed</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/lang-Swift-white?style=for-the-badge" alt="Swift">
+  <img src="https://img.shields.io/badge/for--white?style=for-the-badge" alt="macOS">
+  <img src="https://img.shields.io/badge/lang-RU | ENG-white?style=for-the-badge" alt="Languages">
+</p>
 
 materialSpeed is a minimal native speed test app for macOS.
 
