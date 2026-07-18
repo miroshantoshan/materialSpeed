@@ -206,7 +206,7 @@ struct ContentView: View {
 
     private func speedProgress(_ speed: Double) -> Double {
         guard speed > 0 else { return 0 }
-        return min(max(log10(speed + 1) / log10(1001), 0.04), 1)
+        return min(speed / 1_000, 1)
     }
 
     private func pingProgress(_ ping: Double) -> Double {
