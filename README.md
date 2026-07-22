@@ -30,9 +30,14 @@ Tests use Cloudflare speed test endpoints. Results can vary depending on your ne
 
 ## Installation
 
-Download the latest `materialSpeed.app` from the Releases page and move it to your Applications folder.
+1. Download [`install.command`](install.command).
+2. Double-click the downloaded file.
+3. Wait while the installer downloads the latest source code, builds the app, and installs it.
+4. materialSpeed will open automatically when installation is complete.
 
-If macOS warns that the app cannot be opened because it was downloaded from the internet, open it from Finder with right click, then choose Open.
+Only the installer file is required. It fetches the current `main` branch from this repository, creates a local release build, installs the app to `~/Applications`, removes its temporary files, and then closes the Terminal window. The installer itself remains available and can be run again to update or reinstall the app.
+
+If Swift is not installed, the installer opens Apple's official Command Line Tools setup and continues automatically after it finishes. If macOS asks for confirmation before opening `install.command`, right-click the file in Finder and choose **Open**.
 
 ## Usage
 
@@ -40,15 +45,17 @@ Open materialSpeed and press the start button. The app will measure latency firs
 
 Completed tests are saved in local history inside the app. You can open history with the clock button and clear it at any time.
 
+English is used by default. Open settings with the gear button to switch between English and Russian.
+
 ## Privacy
 
 materialSpeed does not require an account and does not collect personal data.
 
 The app stores test history locally on your Mac using system app storage. Speed measurements connect to Cloudflare speed test endpoints to perform the network test.
 
-## Build From Source
+## Manual Build From Source
 
-For users who prefer building the app themselves:
+The terminal installer is the recommended installation method. To run the project manually instead:
 
 ```bash
 swift run
