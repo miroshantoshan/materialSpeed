@@ -220,7 +220,7 @@ struct ContentView: View {
     }
 
     private var versionLabel: some View {
-        Text("v1.0.10")
+        Text("v1.0.15")
             .font(.system(size: 11, weight: .medium, design: .rounded))
             .foregroundStyle(M3.muted)
             .padding(.top, 10)
